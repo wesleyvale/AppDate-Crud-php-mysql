@@ -40,7 +40,7 @@ $u = new Usuario;
             {
                 if($u->logar($email,$senha))
                 {
-                    header("location: AreaPrivada.php");
+                    header("location: carrossel.php");
 
                 }
                 else
